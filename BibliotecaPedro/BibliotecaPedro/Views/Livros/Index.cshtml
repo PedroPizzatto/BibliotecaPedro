@@ -1,0 +1,39 @@
+﻿@model IEnumerable<BibliotecaPedro.Models.Livro>
+
+@{
+    ViewBag.Title = "Livros";
+}
+
+<h2>Livros</h2>
+
+<p>
+    @Html.ActionLink("Inserir Livro", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LivroNome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Autor)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LivroNome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Autor)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { id=item.LivroId }) |
+            @Html.ActionLink("Detalhes", "Details", new { id=item.LivroId }) |
+            @Html.ActionLink("Deletar", "Delete", new { id=item.LivroId })
+        </td>
+    </tr>
+}
+
+</table>

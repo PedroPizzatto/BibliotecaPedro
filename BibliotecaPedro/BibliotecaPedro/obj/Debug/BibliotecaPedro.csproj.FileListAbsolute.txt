@@ -1,0 +1,89 @@
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll.config
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.pdb
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\Microsoft.Web.Infrastructure.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\WebGrease.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.pdb
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.xml
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.dll
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.pdb
+c:\users\pedro\documents\visual studio 2013\Projects\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll.config
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.pdb
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\WebGrease.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.pdb
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.xml
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.csprojResolveAssemblyReference.cache
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.dll
+C:\Users\Pedro\Desktop\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.pdb
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll.config
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\BibliotecaPedro.pdb
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Microsoft.Web.Infrastructure.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\WebGrease.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\EntityFramework.SqlServer.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Helpers.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Mvc.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Optimization.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.Razor.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Deployment.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\System.Web.WebPages.Razor.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Antlr3.Runtime.pdb
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\bin\Newtonsoft.Json.xml
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.dll
+D:\Pedro\Projeto_Pratico__Pedro\BibliotecaPedro\BibliotecaPedro\obj\Debug\BibliotecaPedro.pdb

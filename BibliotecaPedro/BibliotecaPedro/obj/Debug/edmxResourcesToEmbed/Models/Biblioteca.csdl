@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliotecaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Livro">
+    <Key>
+      <PropertyRef Name="LivroId" />
+    </Key>
+    <Property Name="LivroId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LivroNome" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Autor" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Locacao" Relationship="Self.FK_Locacao_Livro" FromRole="Livro" ToRole="Locacao" />
+  </EntityType>
+  <EntityType Name="Locacao">
+    <Key>
+      <PropertyRef Name="LocacaoId" />
+    </Key>
+    <Property Name="LocacaoId" Type="Int32" Nullable="false" />
+    <Property Name="LivroId" Type="Int32" Nullable="false" />
+    <Property Name="PessoaId" Type="Int32" Nullable="false" />
+    <Property Name="InicioDt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TerminoDt" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Livro" Relationship="Self.FK_Locacao_Livro" FromRole="Locacao" ToRole="Livro" />
+    <NavigationProperty Name="Pessoa" Relationship="Self.FK_Locacao_Pessoa" FromRole="Locacao" ToRole="Pessoa" />
+  </EntityType>
+  <EntityType Name="Pessoa">
+    <Key>
+      <PropertyRef Name="PessoaId" />
+    </Key>
+    <Property Name="PessoaId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PessoaNome" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CPF" Type="String" MaxLength="14" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Locacao" Relationship="Self.FK_Locacao_Pessoa" FromRole="Pessoa" ToRole="Locacao" />
+  </EntityType>
+  <Association Name="FK_Locacao_Livro">
+    <End Role="Livro" Type="Self.Livro" Multiplicity="1" />
+    <End Role="Locacao" Type="Self.Locacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Livro">
+        <PropertyRef Name="LivroId" />
+      </Principal>
+      <Dependent Role="Locacao">
+        <PropertyRef Name="LivroId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Locacao_Pessoa">
+    <End Role="Pessoa" Type="Self.Pessoa" Multiplicity="1" />
+    <End Role="Locacao" Type="Self.Locacao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pessoa">
+        <PropertyRef Name="PessoaId" />
+      </Principal>
+      <Dependent Role="Locacao">
+        <PropertyRef Name="PessoaId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BibliotecaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Livro" EntityType="Self.Livro" />
+    <EntitySet Name="Locacao" EntityType="Self.Locacao" />
+    <EntitySet Name="Pessoa" EntityType="Self.Pessoa" />
+    <AssociationSet Name="FK_Locacao_Livro" Association="Self.FK_Locacao_Livro">
+      <End Role="Livro" EntitySet="Livro" />
+      <End Role="Locacao" EntitySet="Locacao" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Locacao_Pessoa" Association="Self.FK_Locacao_Pessoa">
+      <End Role="Pessoa" EntitySet="Pessoa" />
+      <End Role="Locacao" EntitySet="Locacao" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(BibliotecaModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(BibliotecaModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="vwLocacao" EntityType="BibliotecaModel.vwLocacao" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="vwLocacao">
+    <Key>
+      <PropertyRef Name="LocacaoId" />
+      <PropertyRef Name="LivroId" />
+      <PropertyRef Name="LivroNome" />
+      <PropertyRef Name="Autor" />
+      <PropertyRef Name="PessoaId" />
+      <PropertyRef Name="PessoaNome" />
+      <PropertyRef Name="CPF" />
+      <PropertyRef Name="InicioDt" />
+    </Key>
+    <Property Name="LocacaoId" Type="Int32" Nullable="false" />
+    <Property Name="LivroId" Type="Int32" Nullable="false" />
+    <Property Name="LivroNome" Type="String" Nullable="false" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Autor" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="PessoaId" Type="Int32" Nullable="false" />
+    <Property Name="PessoaNome" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CPF" Type="String" Nullable="false" MaxLength="14" FixedLength="true" Unicode="true" />
+    <Property Name="InicioDt" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="TerminoDt" Type="DateTime" Precision="0" />
+  </EntityType>
+</Schema>

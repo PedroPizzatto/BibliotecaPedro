@@ -1,0 +1,27 @@
+﻿@model IEnumerable<BibliotecaPedro.Models.vwLocacao>
+@{
+    ViewBag.Title = "Pagina Inicial";
+}
+
+<div class="jumbotron">
+    <h1>Locações de Livros</h1>
+    <table class="table">
+        <tr>
+            <th>Nome da Pessoa</th>
+            <th>Livro</th>
+            <th>Data de Locação</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PessoaNome</td>
+                <td>@item.LivroNome</td>
+                <td>@item.InicioDt.ToShortDateString() @item.InicioDt.ToShortTimeString() </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+<div class="row">
+</div>

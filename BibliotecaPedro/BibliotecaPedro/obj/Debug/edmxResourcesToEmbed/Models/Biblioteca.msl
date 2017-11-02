@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BibliotecaModelStoreContainer" CdmEntityContainer="BibliotecaEntities">
+    <EntitySetMapping Name="Livro">
+      <EntityTypeMapping TypeName="BibliotecaModel.Livro">
+        <MappingFragment StoreEntitySet="Livro">
+          <ScalarProperty Name="LivroId" ColumnName="LivroId" />
+          <ScalarProperty Name="LivroNome" ColumnName="LivroNome" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locacao">
+      <EntityTypeMapping TypeName="BibliotecaModel.Locacao">
+        <MappingFragment StoreEntitySet="Locacao">
+          <ScalarProperty Name="LocacaoId" ColumnName="LocacaoId" />
+          <ScalarProperty Name="LivroId" ColumnName="LivroId" />
+          <ScalarProperty Name="PessoaId" ColumnName="PessoaId" />
+          <ScalarProperty Name="InicioDt" ColumnName="InicioDt" />
+          <ScalarProperty Name="TerminoDt" ColumnName="TerminoDt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa">
+      <EntityTypeMapping TypeName="BibliotecaModel.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="PessoaId" ColumnName="PessoaId" />
+          <ScalarProperty Name="PessoaNome" ColumnName="PessoaNome" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="BibliotecaModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="BibliotecaModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="BibliotecaModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="BibliotecaModel.Store.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BibliotecaModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="BibliotecaModel.Store.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="BibliotecaModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="BibliotecaModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="BibliotecaModel.Store.sp_upgraddiagrams" />
+    <EntitySetMapping Name="vwLocacao">
+      <EntityTypeMapping TypeName="BibliotecaModel.vwLocacao">
+        <MappingFragment StoreEntitySet="vwLocacao">
+          <ScalarProperty Name="TerminoDt" ColumnName="TerminoDt" />
+          <ScalarProperty Name="InicioDt" ColumnName="InicioDt" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="PessoaNome" ColumnName="PessoaNome" />
+          <ScalarProperty Name="PessoaId" ColumnName="PessoaId" />
+          <ScalarProperty Name="Autor" ColumnName="Autor" />
+          <ScalarProperty Name="LivroNome" ColumnName="LivroNome" />
+          <ScalarProperty Name="LivroId" ColumnName="LivroId" />
+          <ScalarProperty Name="LocacaoId" ColumnName="LocacaoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
